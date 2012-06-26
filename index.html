@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSI.js - Client Side Includes</title>
+  <script src="jquery-1.7.2.js"></script>
+  <script src="csi.js"></script>
+</head>
+<body>
+  <h1>CSI.js - Client Side Includes</h1>
+  <p>
+    CSI.js allows you to include inline HTML within another page using standard
+    SSI (Server Side Includes) directives from the client-side. This is especially
+    helpful when developing large SPAs (Single Page Applications) in a development
+    environment where you may not have access to a local web server with SSI
+    capabilities.
+  </p>
+  <p>
+    IMPORTANT!: This is intended to be used strictly as a development tool and is
+    not suited for production environments.
+  </p>
+  <p>
+    For more information on SSI, please visit this page:
+    <a href="http://httpd.apache.org/docs/2.0/howto/ssi.html" target="_blank">
+      Apache Tutorial: Introduction to Server Side Includes
+    </a>
+  </p>
+  <h3>Examples:</h3>
+  
+  <!--#include virtual="example1.html" -->
+  
+  <!--#include virtual="example2.html" -->
+  
+</body>
+</html>
